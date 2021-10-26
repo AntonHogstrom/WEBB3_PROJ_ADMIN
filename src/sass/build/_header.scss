@@ -1,0 +1,42 @@
+header {
+    nav {
+        #navIcons {
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            height: 150px;
+
+        }
+        #menu_div, #loginLink {
+            margin: 25px 10vw;
+            cursor: pointer;
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #menu_ul {
+            background-color: rgba($darkblue, .95);
+            border-left: 5px solid $lightblue;
+            display: none;
+            position: fixed;
+            top: 150px;
+            max-width: 300px;
+            width: 60%;
+
+            li {
+                margin: 100px 20px;
+            }
+            #closeMenu_li {
+                background-color: rgba($greenish, .3);
+                #closeMenu {
+                    cursor: pointer;
+                    margin-left: 80%;
+                }
+            }
+        }
+    }
+}
