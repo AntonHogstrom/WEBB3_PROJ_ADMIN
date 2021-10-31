@@ -66,7 +66,8 @@
                 <?php if(isset($message)) {echo "<label>" .$message . "</label>";}?>
             </div>
         </form>
-
+        
+        <a id="topButton" href="#top">Up Please</a>
     </main>
     <script src="js/typescript.js"></script>
 </body>

@@ -146,5 +146,21 @@
         }
     }
 
+    #topButton {
+        height: 60px;
+        width: 100px;
+        background-color: $mediumblue;
+        position: fixed;
+        bottom: 50px;
+        right: 50px;
+        border: 2px solid $lightblue;
+        border-radius: 20%;
+        display: grid;
+        align-items: center;
+        justify-items: center;
 
+        &:hover {
+            border: 5px solid $lightblue;
+        }
+    }  
 }
