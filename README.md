@@ -7,10 +7,10 @@
 
 
 ## CRUD
-- [] Create
+- [ ] Create
 - [x] Read
-- [] Update
-- [] Delete
+- [ ] Update
+- [ ] Delete
 
 Website gathers data from API with fetch API.
 TypeScript then writes out generated HTML-code containing API-data.
