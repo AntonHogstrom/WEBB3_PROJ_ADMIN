@@ -48,8 +48,7 @@ function sassTask() {
         .pipe(concat('main.css'))
         .pipe(sass({outputStyle: 'compressed'}).on("error", sass.logError))
         .pipe(sourceMap.write('../maps'))
-        .pipe(dest("pub/css"))
-        .pipe(browserSync.stream());
+        .pipe(dest("pub/css"));
 }
 
 //IMG-task, returns images, optimizes, sends to pub/img.

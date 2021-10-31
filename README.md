@@ -1,24 +1,36 @@
-# Moment 5 Website
+# Webbutveckling III Project Client
 
-- [x] HTML
-- [x] SASS
-- [x] TYPESCRIPT
-- [x] GULP
+## Contains Data for:
+- Websites
+- Work Experience
+- Courses
 
-## HTML
-HTML has been used to build the foundation of the website
 
-## SASS
-SASS is used with variables, mixins, imports
+## CRUD
+- [] Create
+- [x] Read
+- [] Update
+- [] Delete
 
-## Typescript
-Typescript is used as a test and for experience for coming assignments
+Website gathers data from API with fetch API.
+TypeScript then writes out generated HTML-code containing API-data.
+This website is only ment for reading. There is also a admin-website for using full CRUD.
 
-The typescript connects to API either through localhost or https://devnoe.com/MIUN/WEBB3MOM5/API/api
-Uses CRUD functions to send requests to DB with eventlisteners on submit, get, update and delete buttons.
-HTML content revolving the API data and where it is put is dynamically written with TypeScript.
+Database tables can be installed through install file within API files. This should not be uploaded publicly
+For installation of working environment, use "npm install" inside of project terminal.
+Then use terminal command "gulp" to start the automation process.
+A webserver will be needed to run (XAMPP for example)
+Files should be downloaded to htdocs inside of xampp folder.
+For custom database connection, edit inside of config.php
 
-## Gulp
-Gulp were used to compile SASS to CSS, TS to JS, and for automatic updating with watch task
+Website were written with HTML, Sass, TypeScript.
+Website were written within a auomated working environment.
+For this, Gulp was used. NPM packages included:
+gulp, gulp-concat, gulp-htmlmin, browser-sync, gulp-sourcemaps, gulp-imagemin, gulp-sass, sass, gulp-typescript.
 
-_ Anton Högström _
+[Client Website](https://devnoe.com/MIUN/WEBB3PROJ/portfolio_client/)
+[Admin Website](https://devnoe.com/MIUN/WEBB3PROJ/portfolio_admin/admin.php)
+
+---
+
+**Anton Högström**

@@ -17,6 +17,7 @@
             padding: 5px 10px;
             color: $darkblue;
             letter-spacing: 1px;
+            border-radius: 5px;
 
             &[type="submit"] {
                 font-weight: bold;
@@ -50,6 +51,7 @@
             padding: 5px 10px;
             color: $darkblue;
             letter-spacing: 1px;
+            border-radius: 5px;
 
             &[type="file"]::file-selector-button {
                 width: 50%;

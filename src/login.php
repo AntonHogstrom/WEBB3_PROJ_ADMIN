@@ -39,7 +39,7 @@
     <header>
         <nav>
             <div id="navIcons">
-            <div id="menu_div"><span class="menu_icon"><i class="fas fa-bars fa-2x"></i></span><span>menu</span></div>
+            <div id="menu_div"><span class="menu_icon"><i id="hamburger" class="fas fa-bars fa-2x"></i></span><span>menu</span></div>
                 <div id="login_div"><a id="loginLink" href="#"><span>log in</span><span class="login_icon"><i class="fas fa-sign-in-alt fa-2x"></i></span></a></div>
             </div>
             <ul id="menu_ul">

@@ -22,9 +22,14 @@
 
         button {
             color: $mediumblue;
-            background-color: adjust-hue(lightblue, -60deg);
+            background-color: adjust-hue($lightblue, -30deg);
             margin: 10px;
             padding: 5px 10px;
+
+            &:hover {
+                background-color: adjust-hue($mediumblue, -40deg);
+                color: $lightblue;
+            }
         }
     }
 
