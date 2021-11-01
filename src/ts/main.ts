@@ -184,11 +184,11 @@ function getCourses() {
                             `
                             <div class="courses">
                                 <ul>
-                                    <li><span class="bold">Code: </span>${course.code}</li>
-                                    <li><span class="bold">Name: </span>${course.courseName}</li>
-                                    <li><span class="bold">University: </span>${course.university}</li>
-                                    <li><span class="bold">Start: </span>${course.startDate}</li>
-                                    <li><span class="bold">End: </span>${course.endDate}</li>
+                                    <li><span class="bold">Code: </span><span class="liData">${course.code}</span></li>
+                                    <li><span class="bold">Name: </span><span class="liData">${course.courseName}</span></li>
+                                    <li><span class="bold">University: </span><span class="liData">${course.university}</span></li>
+                                    <li><span class="bold">Start: </span><span class="liData">${course.startDate}</span></li>
+                                    <li><span class="bold">End: </span><span class="liData">${course.endDate}</span></li>
                                 </ul>
                                 <button id="${course.course_id}" onClick="updateFormCourses(${course.course_id})" class="editButton">Edit</button>
                                 <button id="${course.course_id}" onClick="deleteCourse(${course.course_id})" class="deleteButton">Delete</button>
@@ -408,10 +408,10 @@ function getWorks() {
                             `
                             <div class="courses">
                                 <ul>
-                                    <li><span class="bold">Company: </span>${work.company}</li>
-                                    <li><span class="bold">Title: </span>${work.title}</li>
-                                    <li><span class="bold">Start: </span>${work.startDate}</li>
-                                    <li><span class="bold">End: </span>${work.endDate}</li>
+                                    <li><span class="bold">Company: </span><span class="liData">${work.company}</span></li>
+                                    <li><span class="bold">Title: </span><span class="liData">${work.title}</span></li>
+                                    <li><span class="bold">Start: </span><span class="liData">${work.startDate}</span></li>
+                                    <li><span class="bold">End: </span><span class="liData">${work.endDate}</span></li>
                                 </ul>
                                 <button id="${work.work_id}" onClick="updateFormWorks(${work.work_id})" class="editButton">Edit</button>
                                 <button id="${work.work_id}" onClick="deleteWork(${work.work_id})" class="deleteButton">Delete</button>

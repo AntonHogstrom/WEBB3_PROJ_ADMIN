@@ -25,9 +25,12 @@ menuEl.addEventListener("click", () => {
         hamburger.classList.remove("fa-bars");
     }
 });
+
 //Close menu on X icon on absolute menu
 closeMenu.addEventListener("click", () => {
     menuUl.style.display = "none";
+    hamburger.classList.remove("fa-times");
+    hamburger.classList.add("fa-bars");
 })
 
 //Show topButton when not in top of page
