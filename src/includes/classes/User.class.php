@@ -22,9 +22,6 @@ class User {
         $username = $this->db->real_escape_string($username);
         $password = $this->db->real_escape_string($password);
 
-        $passwordHash = password_hash($password, PASSWORD_DEFAULT);
-        var_dump($passwordHash);
-
         $sql = "SELECT password FROM user WHERE username ='".$username."'";
         $result = mysqli_query($this->db, $sql);
 
